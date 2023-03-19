@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
+import Roles from './components/roles/Roles';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Portfolio />
+      <Roles />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,57 @@
+.roles__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.roles__container > div {
+    background: var(--color-bg-variant);
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.roles__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.roles__container > div h3{
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.roles__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+
+.roles__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.roles__details-icon {
+    margin-top: 6px;
+    display: flex;
+    color: var(--color-primary);
+}
+
+/* ============= Media Queries (Medium Devices) ===========*/
+@media screen and (max-width: 1024px) {
+    .roles__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+  }
+  
+  /* ============= Media Queries (Small Devices) ===========*/
+  @media screen and (max-width: 600px) {
+    .roles__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+  }
