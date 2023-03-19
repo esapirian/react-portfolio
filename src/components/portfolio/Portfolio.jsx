@@ -53,19 +53,6 @@ const Portfolio = () => {
           )
         }
       </div>
-
-      {/* <div className="container portfolio__container">
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-              <img src={IMG1} alt='' />
-            </div>
-            <h3>This is a portfolio item title</h3>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com" className='btn' target="_blank">Github Project</a>
-              <a href="https://dribble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
-            </div>
-        </article>
-      </div> */}
     </section>
   )
 }
