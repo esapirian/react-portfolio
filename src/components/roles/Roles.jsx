@@ -146,7 +146,7 @@ const Roles = () => {
         </div>
       </div>
     </section>
-  )
+)                 
 }
 
 export default Roles
